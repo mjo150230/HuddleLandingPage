@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (min-width: 376px){
+  .header {
+    background-image: url("images/bg-hero-desktop.svg");
+    width: 100%;
+    height: 700px;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    background-image: url("images/bg-hero-mobile.svg");
+    width: 100%;
+    height: 700px;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/* header section */
+.header {
+  padding: 3%;
+}
+
+.head-container {
+  padding: 20px;
+}
+
+.logo-header, .logo {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.button {
+  text-align: center;
+  padding-left: 30%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.free-btn {
+  text-decoration: none;
+  text-align: right;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px #666666;
+  color: black;
+  font-size: 16px;
+  padding: 10px 50px 10px 50px;
+  border: none;
+}
+
+.btn {
+  text-decoration: none;
+  box-shadow: 0 1px 3px #666666;
+  font-size: 14px;
+  padding: 10px 50px 10px 50px;
+  border: none;
+  color: #fff;
+  background: hsl(322, 100%, 66%);
+  border-radius: 20px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 4;
+}
+
+.mockup {
+  width: 650px;
+}
+
+.head-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.content-text {
+  padding-top: 4%;
+  padding-right: 7%;
+}
+
+/* middle section */
+.middle {
+  padding: 7%;
+}
+
+.text {
+  color: hsl(208, 11%, 55%);
+}
+
+.first, .second, .third {
+  border: none;
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: 40px;
+  box-shadow: 0 1px 3px #666666;
+}
+
+.image {
+  width: 400px;
+}
+
+/* footer section */
+.footer-section {
+  padding: 5%;
+  background: hsl(192, 100%, 9%);
+  height: 400px;
+  color: #fff;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2, h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin-left: 20px;
+  line-height: 2;
+  font-size: 16px;
+  padding-left: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-img {
+  filter: grayscale(100%);
+  filter: contrast(100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  float: left;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
